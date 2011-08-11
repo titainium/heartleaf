@@ -6,5 +6,5 @@ from tornado import web
 from apps.index.view import IndexHandler
 
 handlers = [(r"/", IndexHandler),
-            (r"/(apple-touch-icon\.png)", web.StaticFileHandler),
+            (r"/static/(.*)", web.StaticFileHandler),
             ]

@@ -1,4 +1,3 @@
-import os.path
 #!/usr/bin/env python
 # coding=utf-8
 

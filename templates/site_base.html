@@ -4,6 +4,8 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>{% block title %}HeartLeaf{% end %}</title>
         <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="{{ static_url("css/blueprint/screen.css") }}" />
+        <script type="text/javascript" src="{{ static_url("js/jquery-1.6.2.min.js") }}"></script>
         {% block style %}{% end %}
         {% block js %}{% end %}
     </head>
